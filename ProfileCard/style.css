@@ -44,3 +44,22 @@ h1 {
   font-size: 12px;
 }
 
+.stats {
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+}
+
+.stat {
+  justify-content: space-between;
+  margin: 10px;
+  position: relative;
+  gap: 10px;
+}
+
+.actions button {
+  display: flex;
+  float: left;
+  margin-right: 12px;
+  gap: 20px;
+}
