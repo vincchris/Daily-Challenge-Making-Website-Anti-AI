@@ -57,9 +57,21 @@ h1 {
   gap: 10px;
 }
 
-.actions button {
+.actions {
   display: flex;
-  float: left;
-  margin-right: 12px;
-  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.actions button {
+  margin: auto 12px;
+  cursor: pointer;
+}
+
+#formInput input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 10px;
 }
