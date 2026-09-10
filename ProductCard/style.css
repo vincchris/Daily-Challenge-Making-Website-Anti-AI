@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0 ;
+  font-family: sans-serif;
+}
+
+h1 {
+  margin: 12px;
+  padding-left: 12px;
+}
+
+.card-container {
+  display: flex;
+  margin: 10px;
+  padding: 4px;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  margin: 14px;
+  padding: 10px;
+}
+
+.card img {
+  max-width: 120px;
+  margin: 12px;
+}
+
+.card h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.card p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.card span {
+  text-align: center;
+  display: block;
+  margin: 4px;
+  font-size: 14px;
+}
+
+.actions button {
+  display: flex;
+  margin-top: 12px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
